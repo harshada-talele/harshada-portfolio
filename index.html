@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Harshada Talele — B.Sc IT Student & AI Enthusiast</title>
+<meta name="description" content="Portfolio of Harshada Talele — B.Sc Information Technology student specialising in Python, Web Development and Generative AI." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💫</text></svg>" />
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a href="#home" class="nav__logo">H<span>T</span></a>
+
+    <nav class="nav__links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="icon-btn" id="themeToggle" aria-label="Toggle dark mode">
+        <svg class="ico-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        <svg class="ico-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="icon-btn nav__burger" id="burger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero__blob hero__blob--1"></div>
+  <div class="hero__blob hero__blob--2"></div>
+
+  <div class="container hero__inner">
+    <div class="hero__text reveal">
+      <p class="hero__hi">Hello, I'm</p>
+      <h1 class="hero__name">Harshada <span>Talele</span></h1>
+      <p class="hero__role">
+        <span class="typed" id="typed"></span><span class="caret">|</span>
+      </p>
+      <p class="hero__desc">
+        Final-year B.Sc. Information Technology student who loves turning ideas into
+        clean, working software. Currently exploring <strong>Generative AI</strong>,
+        <strong>Python</strong> and <strong>web development</strong>.
+      </p>
+
+      <div class="hero__cta">
+        <a href="#projects" class="btn btn--primary">View My Work</a>
+        <a href="assets/Harshada-Talele-Resume.pdf" class="btn btn--ghost" download>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+          Resume
+        </a>
+      </div>
+
+      <div class="hero__socials">
+        <a href="https://www.linkedin.com/in/harshada-talele" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.05c.53-.95 1.83-1.95 3.75-1.95C20.4 8.75 21 11 21 14v7h-4v-6.2c0-1.5 0-3.4-2.1-3.4-2.1 0-2.4 1.6-2.4 3.3V21H9z"/></svg>
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+        </a>
+        <a href="mailto:harshadatalele2706@gmail.com" aria-label="Email">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero__card reveal">
+      <div class="avatar">
+        <span class="avatar__initials">HT</span>
+      </div>
+      <h3 class="avatar__name">Harshada Talele</h3>
+      <p class="avatar__sub">B.Sc IT &middot; Kalyan, Maharashtra</p>
+      <ul class="avatar__facts">
+        <li><span>🎓</span> B.Sc IT — 2024 to 2027</li>
+        <li><span>🤖</span> Google AI &amp; Prompting Certified</li>
+        <li><span>💼</span> Web Dev Intern — InAmigos</li>
+        <li><span>🌐</span> English · Hindi · Marathi</li>
+      </ul>
+      <span class="status"><i></i> Open to internships</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="container">
+    <p class="section__eyebrow reveal">01 — About</p>
+    <h2 class="section__title reveal">A little about me</h2>
+
+    <div class="about">
+      <div class="about__text reveal">
+        <p>
+          I'm an enthusiastic <strong>B.Sc. Information Technology</strong> student at K.B College, Thane,
+          with a genuine curiosity for how technology solves everyday problems.
+        </p>
+        <p>
+          My journey started with <strong>HTML, CSS and Python</strong>, and grew into a strong interest in
+          <strong>Generative AI and prompt engineering</strong> — I've completed Google's AI Essentials
+          and Prompting Essentials programmes, plus job simulations with Tata in cybersecurity and
+          GenAI-powered data analytics.
+        </p>
+        <p>
+          Rather than only reading about it, I've <strong>built three projects</strong> — an AI-powered
+          resume analyzer in Python, an expense tracker in vanilla JavaScript, and this site. Each one
+          taught me something the tutorials didn't.
+        </p>
+        <p>
+          I enjoy building small, useful things: a tool that saves time, a page that feels good to use.
+          Right now I'm looking for an <strong>entry-level role or internship</strong> where I can learn
+          fast, contribute honestly, and grow alongside a good team.
+        </p>
+      </div>
+
+      <div class="about__stats reveal">
+        <div class="stat"><b>5+</b><span>Certifications</span></div>
+        <div class="stat"><b>60</b><span>Internship Hours</span></div>
+        <div class="stat"><b>3</b><span>Projects Built</span></div>
+        <div class="stat"><b>2027</b><span>Graduating</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <p class="section__eyebrow reveal">02 — Skills</p>
+    <h2 class="section__title reveal">What I work with</h2>
+
+    <div class="skills">
+      <div class="skill-card reveal">
+        <div class="skill-card__ico">💻</div>
+        <h3>Programming</h3>
+        <div class="tags">
+          <span>Python</span><span>JavaScript</span><span>C</span><span>C++</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card__ico">🌐</div>
+        <h3>Web Development</h3>
+        <div class="tags">
+          <span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Responsive Design</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card__ico">🤖</div>
+        <h3>AI &amp; Generative AI</h3>
+        <div class="tags">
+          <span>Prompt Engineering</span><span>GenAI Tools</span><span>Streamlit</span><span>Responsible AI</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal">
+        <div class="skill-card__ico">🧰</div>
+        <h3>Tools &amp; Soft Skills</h3>
+        <div class="tags">
+          <span>Git &amp; GitHub</span><span>MS Office</span><span>Communication</span><span>Teamwork</span><span>Problem Solving</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section" id="projects">
+  <div class="container">
+    <p class="section__eyebrow reveal">03 — Projects</p>
+    <h2 class="section__title reveal">Things I've built</h2>
+    <p class="section__lead reveal">Three things I built to put what I've been learning into practice — each one live, with the code on GitHub.</p>
+
+    <div class="projects">
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__ico">📄</span>
+          <div class="project__links">
+            <a href="https://YOUR-APP.streamlit.app" target="_blank" rel="noopener" aria-label="Live demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
+            </a>
+            <a href="https://github.com/YOUR-GITHUB-USERNAME/ai-resume-analyzer" target="_blank" rel="noopener" aria-label="Source code">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>AI Resume Analyzer</h3>
+        <p>A Python web app that reads a resume PDF, compares it against a job description and returns a match score out of 100 — plus the exact skills and keywords that are missing. Runs 13 ATS-style checks offline, with optional AI suggestions from Claude.</p>
+        <div class="tags tags--sm"><span>Python</span><span>Streamlit</span><span>Generative AI</span><span>pypdf</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__ico">💰</span>
+          <div class="project__links">
+            <a href="https://YOUR-GITHUB-USERNAME.github.io/expense-tracker/" target="_blank" rel="noopener" aria-label="Live demo">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><path d="M15 3h6v6M10 14 21 3"/></svg>
+            </a>
+            <a href="https://github.com/YOUR-GITHUB-USERNAME/expense-tracker" target="_blank" rel="noopener" aria-label="Source code">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>PaisaTrack — Expense Tracker</h3>
+        <p>A clean expense tracker that saves everything in the browser. Add, edit, search and filter expenses, see a live category breakdown on a donut chart drawn with pure SVG, and export it all to CSV.</p>
+        <div class="tags tags--sm"><span>JavaScript</span><span>CSS3</span><span>localStorage</span><span>SVG</span></div>
+      </article>
+
+      <article class="project reveal">
+        <div class="project__top">
+          <span class="project__ico">💫</span>
+          <div class="project__links">
+            <a href="https://github.com/YOUR-GITHUB-USERNAME/harshada-portfolio" target="_blank" rel="noopener" aria-label="Source code">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5a12 12 0 0 0-3.8 23.4c.6.1.8-.3.8-.6v-2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.9 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.5 11.5 0 0 1 6 0C17.3 4.7 18.3 5 18.3 5c.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6A12 12 0 0 0 12 .5z"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3>Personal Portfolio Website</h3>
+        <p>The site you're looking at — built from scratch with semantic HTML, modern CSS and vanilla JavaScript. Features dark mode, a typing animation, scroll reveals and a fully responsive layout.</p>
+        <div class="tags tags--sm"><span>HTML5</span><span>CSS3</span><span>JavaScript</span></div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION & CERTS ============ -->
+<section class="section section--alt" id="education">
+  <div class="container">
+    <p class="section__eyebrow reveal">04 — Journey</p>
+    <h2 class="section__title reveal">Education &amp; Certifications</h2>
+
+    <div class="journey">
+      <!-- Education -->
+      <div class="journey__col reveal">
+        <h3 class="journey__head">🎓 Education</h3>
+        <div class="timeline">
+          <div class="tl">
+            <span class="tl__year">2024 — 2027</span>
+            <h4>B.Sc. Information Technology</h4>
+            <p>K.B College, Thane <em>(Pursuing)</em></p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">2023 — 2024</span>
+            <h4>HSC — 12th Standard</h4>
+            <p>Model College, Kalyan</p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">2021 — 2022</span>
+            <h4>SSC — 10th Standard</h4>
+            <p>Nutan Dnyan Mandir, Kalyan</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Certifications -->
+      <div class="journey__col reveal">
+        <h3 class="journey__head">📜 Certifications</h3>
+        <div class="timeline">
+          <div class="tl">
+            <span class="tl__year">Aug 2026</span>
+            <h4>Google Prompting Essentials</h4>
+            <p>Google &middot; Coursera — designing effective prompts for AI-powered tasks.</p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">Jul 2026</span>
+            <h4>Google AI Essentials</h4>
+            <p>Google &middot; Coursera — AI fundamentals and responsible AI practices.</p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">Jul 2026</span>
+            <h4>GenAI Powered Data Analytics</h4>
+            <p>Tata &middot; Forage — applying GenAI to data analysis and business problems.</p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">Jul 2026</span>
+            <h4>Cybersecurity Analyst Simulation</h4>
+            <p>Tata &middot; Forage — threat identification and security problem-solving.</p>
+          </div>
+          <div class="tl">
+            <span class="tl__year">Jun 2026</span>
+            <h4>Web Development Internship</h4>
+            <p>InAmigos Foundation — 60 hours of hands-on HTML &amp; CSS practice.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <p class="section__eyebrow reveal">05 — Contact</p>
+    <h2 class="section__title reveal">Let's work together</h2>
+    <p class="section__lead reveal">
+      I'm actively looking for entry-level opportunities and internships.
+      My inbox is always open — say hello!
+    </p>
+
+    <div class="contact">
+      <div class="contact__cards reveal">
+        <a class="ccard" href="mailto:harshadatalele2706@gmail.com">
+          <span class="ccard__ico">✉️</span>
+          <div><b>Email</b><small>harshadatalele2706@gmail.com</small></div>
+        </a>
+        <a class="ccard" href="tel:+919004872057">
+          <span class="ccard__ico">📞</span>
+          <div><b>Phone</b><small>+91 90048 72057</small></div>
+        </a>
+        <a class="ccard" href="https://www.linkedin.com/in/harshada-talele" target="_blank" rel="noopener">
+          <span class="ccard__ico">💼</span>
+          <div><b>LinkedIn</b><small>Connect with me</small></div>
+        </a>
+        <div class="ccard ccard--static">
+          <span class="ccard__ico">📍</span>
+          <div><b>Location</b><small>Kalyan East, Maharashtra</small></div>
+        </div>
+      </div>
+
+      <form class="contact__form reveal" id="contactForm" novalidate>
+        <div class="field">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Tell me about the opportunity..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Send Message</button>
+        <p class="form-note" id="formNote"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <p>© <span id="year"></span> Harshada Talele. Built with HTML, CSS &amp; JavaScript.</p>
+    <a href="#home" class="to-top" aria-label="Back to top">↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
